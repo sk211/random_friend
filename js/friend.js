@@ -1,5 +1,5 @@
 const randomFriend = () => {
-    fetch("https://randomuser.me/api/?results=50")
+    fetch("https://randomuser.me/api/?gender=female")
         .then(res => res.json())
         .then(data => displayFriend(data))
 }
